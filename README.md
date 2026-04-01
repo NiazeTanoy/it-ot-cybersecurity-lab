@@ -13,7 +13,7 @@ The objective is to simulate a real-world enterprise and industrial setup where 
 
 ## Architecture
 
-![Architecture](architecture-diagram.jpg)
+<img src="architecture-diagram.jpg" width="800"/>
 
 *Figure: IT/OT segmented network architecture with FortiGate firewall and VLAN-based isolation*
 
