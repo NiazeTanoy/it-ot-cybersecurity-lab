@@ -15,6 +15,8 @@ The objective is to simulate a real-world enterprise and industrial setup where 
 
 ![Architecture](architecture-diagram.jpg)
 
+*Figure: IT/OT segmented network architecture with FortiGate firewall and VLAN-based isolation*
+
 - IT Network (User systems, enterprise services)
 - OT Network (Simulated industrial/lab systems)
 - Firewall Layer (FortiGate)
@@ -59,6 +61,13 @@ The objective is to simulate a real-world enterprise and industrial setup where 
 - Zero Trust network concepts  
 
 ---
+
+## Key Outcomes
+
+- Designed a segmented IT/OT architecture aligned with security best practices  
+- Applied network isolation principles to reduce attack surface  
+- Demonstrated practical understanding of firewall-based access control  
+- Built a foundation for future SIEM and monitoring integration  
 
 ## Author
 
