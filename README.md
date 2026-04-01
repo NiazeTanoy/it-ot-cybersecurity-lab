@@ -25,6 +25,16 @@ The objective is to simulate a real-world enterprise and industrial setup where 
 
 ---
 
+## VLAN Design
+
+| VLAN ID | Name        | Purpose                          |
+|--------|------------|----------------------------------|
+| 10     | IT Network  | User systems and enterprise access |
+| 20     | OT Network  | Industrial/lab devices           |
+| 30     | Servers     | Application and system servers   |
+| 40     | Admin       | Management and admin access      |
+| 50     | Testbed     | Research and isolated testing    |
+
 
 ## Security Design
 
@@ -35,6 +45,14 @@ The objective is to simulate a real-world enterprise and industrial setup where 
 - Monitoring and logging for visibility and incident response  
 
 ---
+
+## Sample Firewall Policies
+
+- IT → Internet: Allowed (with monitoring and logging)
+- IT → OT: Restricted (only required ports/services)
+- OT → IT: Blocked by default
+- Admin → All VLANs: Allowed (controlled access)
+- Testbed → Production: Isolated
 
 ## Technologies Used
 
