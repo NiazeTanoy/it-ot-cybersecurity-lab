@@ -1,5 +1,7 @@
 # IT/OT Cybersecurity Lab – Network Segmentation & Secure Architecture
 
+Designed and developed as part of cybersecurity-focused IT/OT research and infrastructure initiatives.
+
 Real-world IT/OT cybersecurity lab inspired by enterprise and industrial network environments.
 
 ---
