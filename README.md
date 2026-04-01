@@ -13,6 +13,8 @@ The objective is to simulate a real-world enterprise and industrial setup where 
 
 ## Architecture
 
+![Architecture](architecture-diagram.jpg)
+
 - IT Network (User systems, enterprise services)
 - OT Network (Simulated industrial/lab systems)
 - Firewall Layer (FortiGate)
@@ -20,6 +22,7 @@ The objective is to simulate a real-world enterprise and industrial setup where 
 - Controlled communication between IT and OT zones
 
 ---
+
 
 ## Security Design
 
